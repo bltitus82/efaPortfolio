@@ -1,0 +1,178 @@
+.header {
+    background-image: url("assets/notebook-dark.png");
+    background-color: #eb9a0e;
+    height: 100vh;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(235, 154, 14, 0.836);
+}
+
+.nav-link{
+    color: black;
+    font-family: "Cairo";
+    font-size: 20px;
+}
+
+.nav-link:hover, .nav-link:active, .nav-link:focus {
+    border: 2px solid black;
+    font-weight: bold;
+    color: #696158;
+}
+
+.headerContent {
+    position: relative;
+    display: block;
+    width: 55%;
+    margin: auto;
+    top: 30%;
+}
+
+.about {
+    background-image: url("assets/clean-textile.png");
+    background-color: #9b9ea1;
+    width: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Noto Sans KR";
+    font-size: 18px;
+    height: auto;
+}
+
+.aboutFlex{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    margin: auto;
+}
+
+.aboutFlexChild {
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.image {
+    flex: 35%;
+    height: auto;
+    width: auto;
+}
+
+.text {
+    flex: 65%;
+    height: auto;
+    width: auto;
+}
+
+h1 {
+    font-family: "Roboto Mono";
+    font-size: 75px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-family: "Roboto Mono";
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Cairo";
+    font-size: 40px;
+}
+
+.carousel-item {
+    font-family: "Source Code Pro";
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.selfie {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.projects {
+    background-image: url("assets/black-linen.png");
+    background-color: #292933;
+    color: #9b9ea1;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.projectsFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectImg {
+    width: 250px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.contact {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-family: "Noto Sans KR";
+}
+
+.contactFlex {
+    display: flex;
+}
+
+.contactFlexChild {
+    flex: 1;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#contactText {
+    font-size: 20px;
+}
+
+.footer {
+    font-family: "Noto Sans KR";
+    border-top: 2px solid black; 
+    align-content: center;
+    display: block;
+}
+
+.footerText {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+#left {
+    float: left;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+#right {
+    float: right;
+    padding: 10px;
+}
+
+.footerLogo {
+    height: 50px;
+    border-radius: 50%;
+}

@@ -103,8 +103,8 @@ h3 {
     background-color: #292933;
     color: #9b9ea1;
     height: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
     text-align: center;
     justify-content: center;
     margin-top: auto;
@@ -119,6 +119,25 @@ h3 {
 
 .projectImg {
     height: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#robotoMonoH3 {
+    font-family: "Roboto Mono";
+}
+
+.otherWorkFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.otherWorkImg {
+    height: 150px;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
